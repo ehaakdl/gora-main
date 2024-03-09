@@ -50,8 +50,8 @@ subprojects {
     }
 }
 
-project(':module-backend') {
+project(':gora-backend') {
     dependencies {
-        implementation project(':module-common')
+        implementation project(':gora-common')
     }
 }

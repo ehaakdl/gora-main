@@ -1,0 +1,6 @@
+[submodule "gora-backend"]
+	path = gora-backend
+	url = https://github.com/ehaakdl/gora-backend.git
+[submodule "gora-common"]
+	path = gora-common
+	url = https://github.com/ehaakdl/gora-common

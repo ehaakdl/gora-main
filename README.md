@@ -1,3 +1,15 @@
-querydsl repository 객체 모듈 분리 실패
-- JPAQueryFactory 객체 주입 보다 repository 객체를 참조하는 클래스가 먼저 호출됨
-순서를 임의로 조정하는 방법보단 처음 상태 그대로 두는것이 좋을거 같음
+# 프로젝트 설정 및 빌드 가이드
+
+## 서브모듈 연결
+
+메인 프로젝트에 서브모듈을 연결합니다. 아래 명령어를 `gora-main` 폴더 위치에서 실행하세요.
+
+git submodule add https://github.com/ehaakdl/gora-backend.git gora-backend
+git submodule add https://github.com/ehaakdl/gora-common.git gora-common
+
+
+## 빌드 파일 제거
+./gradlew :gora-common:clean :gora-backend:clean
+
+## 모듈 빌드 및 Docker 이미지 생성
+./gradlew :gora-common:build :gora-backend:build :gora-backend:jibDockerBuild
