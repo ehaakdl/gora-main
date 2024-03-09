@@ -14,6 +14,9 @@ git submodule add https://github.com/ehaakdl/gora-common.git gora-server
 
 ```./gradlew :gora-common:clean :gora-backend:clean :gora-server:clean```
 
+## common 모듈 빌드 
+```./gradlew :gora-common:build```
+
 ## 모듈 Docker 이미지 제거
 
 ```docker rmi backend:latest backend:1.0.0 server:latest server:latest```
