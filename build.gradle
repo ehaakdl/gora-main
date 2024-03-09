@@ -55,3 +55,9 @@ project(':gora-backend') {
         implementation project(':gora-common')
     }
 }
+
+project(':gora-server') {
+    dependencies {
+        implementation project(':gora-common')
+    }
+}

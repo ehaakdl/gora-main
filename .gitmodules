@@ -4,3 +4,6 @@
 [submodule "gora-common"]
 	path = gora-common
 	url = https://github.com/ehaakdl/gora-common
+[submodule "gora-server"]
+	path = gora-server
+	url = https://github.com/ehaakdl/gora-server.git

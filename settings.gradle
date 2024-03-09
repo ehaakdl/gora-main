@@ -1,3 +1,4 @@
 rootProject.name = 'gora-main'
 include 'gora-backend'
 include 'gora-common'
+include 'gora-server'
