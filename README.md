@@ -7,6 +7,7 @@
 ```
 git submodule add https://github.com/ehaakdl/gora-backend.git gora-backend
 git submodule add https://github.com/ehaakdl/gora-common.git gora-common
+git submodule add https://github.com/ehaakdl/gora-common.git gora-server
 ```
 
 ## 빌드 파일 제거
