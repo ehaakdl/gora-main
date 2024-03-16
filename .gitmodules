@@ -7,3 +7,9 @@
 [submodule "gora-server"]
 	path = gora-server
 	url = https://github.com/ehaakdl/gora-server.git
+[submodule "gora-infla"]
+	path = gora-infla
+	url = https://github.com/ehaakdl/gora-infla.git
+[submodule "gora-web"]
+	path = gora-web
+	url = https://github.com/ehaakdl/gora-web.git
